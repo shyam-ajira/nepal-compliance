@@ -36,6 +36,7 @@ app_include_js = [
                  "/assets/nepal_compliance/js/formatter.js",
                  "/assets/nepal_compliance/js/report_filter.js",
                  "/assets/nepal_compliance/js/icon_patch.js"
+                 "/assets/nepal_compliance/js/customer.js"
                  ]
 
 boot_session = "nepal_compliance.boot.get_boot_info"
@@ -345,3 +346,4 @@ purchase_sales = ["Purchase Invoice", "Sales Invoice"]
 doctype_lists = ["Asset","Asset Capitalization","Asset Repair","Dunning","Invoice Discounting","Journal Entry",
                  "Landed Cost Voucher","Payment Entry","Period Closing Voucher","Process Deferred Accounting","Purchase Invoice",
                  "Purchase Receipt","POS Invoice","Sales Invoice","Stock Entry","Stock Reconciliation"]
+

@@ -4,5 +4,6 @@
 nepal_compliance.patches.add_custom_fields
 nepal_compliance.patches.update_income_tax_components
 
+
 [post_model_sync]
 # Patches added in this section will be executed after doctypes are migrated
