@@ -36,11 +36,11 @@ def create_custom_fields():
             {"fieldname": "cbms_response", "label": "CBMS Response", "fieldtype": "Small Text", "insert_after": "cbms_status", "in_list_view": 1, "allow_on_submit": 1}
         ],
         "Supplier":[
-            {"fieldname": "allow_duplicate_taxid", "label": "Allow Duplicate Tax ID?", "fieldtype": "Check", "insert_after": "tax_id", "default": 0,
+            {"fieldname": "allow_duplicate_taxid", "label": "Allow Duplicate Tax ID?", "fieldtype": "Check", "insert_after": "tax_id", "default": 0,"allow_in_quick_entry": 1,
              "description": "<b>Note:</b> Checking this disbles Unique PAN/VAT validation for this supplier. It is used for private firms which have same PAN/VAT number. For this to work, <b>Allow Duplicate Tax ID?</b> must be checked for all relevant parties."},
         ],
         "Customer":[
-            {"fieldname": "allow_duplicate_taxid", "label": "Allow Duplicate Tax ID?", "fieldtype": "Check", "insert_after": "tax_id", "default": 0,
+            {"fieldname": "allow_duplicate_taxid", "label": "Allow Duplicate Tax ID?", "fieldtype": "Check", "insert_after": "tax_id", "default": 0,"allow_in_quick_entry": 1,
              "description": "<b>Note:</b> Checking this disbles Unique PAN/VAT validation for this supplier. It is used for private firms which have same PAN/VAT number. For this to work, <b>Allow Duplicate Tax ID?</b> must be checked for all relevant parties."},
         ],
         
