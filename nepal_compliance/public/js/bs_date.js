@@ -84,7 +84,7 @@ const nepaliDateConfig = {
     "Purchase Receipt": singleNepaliDateConfig('posting_date'),
     "Sales Order": singleNepaliDateConfig('transaction_date'),
     "Delivery Note": singleNepaliDateConfig('posting_date'),
-    "Payment Entry": singleNepaliDateConfig('posting_date'),
+    // "Payment Entry": singleNepaliDateConfig('posting_date'),
     "Journal Entry": singleNepaliDateConfig('posting_date'),
     "Request for Quotation": singleNepaliDateConfig('transaction_date'),
     "Supplier Quotation": singleNepaliDateConfig('transaction_date'),

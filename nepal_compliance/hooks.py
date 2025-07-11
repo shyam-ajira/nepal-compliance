@@ -75,7 +75,7 @@ doctype_js = {
     "Sales Order": "public/js/bs_date.js","Delivery Note": "public/js/bs_date.js",
     "Sales Invoice": ["public/js/bs_date.js", "public/js/utils.js", "public/js/validate.js", "public/js/email.js"],
     "CBMS Settings": "nepal_compliance/doctype/cbms_settings/cbms_settings.js",
-    "Payment Entry": "public/js/bs_date.js",
+    # "Payment Entry": "public/js/bs_date.js",
     "Journal Entry": ["public/js/bs_date.js", "public/js/utils.js"],
     "Supplier": "public/js/validate.js",
     "Customer": "public/js/validate.js",
@@ -344,6 +344,6 @@ fixtures = [
 purchase_sales = ["Purchase Invoice", "Sales Invoice"]
 
 doctype_lists = ["Asset","Asset Capitalization","Asset Repair","Dunning","Invoice Discounting","Journal Entry",
-                 "Landed Cost Voucher","Payment Entry","Period Closing Voucher","Process Deferred Accounting","Purchase Invoice",
+                 "Landed Cost Voucher","Period Closing Voucher","Process Deferred Accounting","Purchase Invoice",
                  "Purchase Receipt","POS Invoice","Sales Invoice","Stock Entry","Stock Reconciliation"]
 
